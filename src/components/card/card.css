@@ -1,0 +1,16 @@
+
+.card{
+    box-sizing: border-box;
+    border: 2px solid blue;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+
+.card :hover {
+    border-radius: 50%;
+    cursor: pointer
+}
