@@ -47,6 +47,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>CHARACTERS</h1>
       <SearchBar onDataChangeFunction={onSearchChanges}/>
       {error && <div>Error</div>}
       {rickAndMortyData &&  <CardsContainer rickAndMortyData={filteredData}/>}
